@@ -1,0 +1,9 @@
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.csprojAssemblyReference.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.AssemblyInfoInputs.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.AssemblyInfo.cs
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\bin\Debug\netstandard2.0\GitBuild.Domain.deps.json
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\bin\Debug\netstandard2.0\GitBuild.Domain.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\bin\Debug\netstandard2.0\GitBuild.Domain.pdb
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Domain\obj\Debug\netstandard2.0\GitBuild.Domain.pdb
