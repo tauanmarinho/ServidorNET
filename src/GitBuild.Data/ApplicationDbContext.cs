@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using GitBuild.Domain.Language;
 
 namespace GitBuild.Data
 {
@@ -9,6 +10,6 @@ namespace GitBuild.Data
 
         }
 
-        //public DbSet<Language> Lnaguages {get; set; }
+        public DbSet<Language> Languages {get; set; }
     }
 }

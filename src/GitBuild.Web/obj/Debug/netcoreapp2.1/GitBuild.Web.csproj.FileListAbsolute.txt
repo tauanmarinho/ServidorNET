@@ -32,3 +32,9 @@ C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\obj\Debug\netco
 C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\obj\Debug\netcoreapp2.1\GitBuild.Web.Views.pdb
 C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\obj\Debug\netcoreapp2.1\GitBuild.Web.csproj.CopyComplete
 C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\obj\Debug\netcoreapp2.1\Razor\Views\Language\CreateOrEdit.g.cshtml.cs
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.Data.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.DI.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.Domain.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.DI.pdb
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.Data.pdb
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Web\bin\Debug\netcoreapp2.1\GitBuild.Domain.pdb

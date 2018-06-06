@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+    "signature": "174cd51a7aacf33e4cca04ff8da67f18e90ede14"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "GitBuild.Web/1.0.0": {
         "dependencies": {
+          "GitBuild.DI": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.0",
           "Microsoft.NETCore.App": "2.1.0"
         },
@@ -32,6 +33,37 @@
         },
         "compile": {
           "GitBuild.Web.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
+            "assemblyVersion": "1.1.5.0",
+            "fileVersion": "1.1.5.31115"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
+            "assemblyVersion": "1.1.5.0",
+            "fileVersion": "1.1.5.31115"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -203,6 +235,45 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "GitBuild.Data/1.0.0": {
+        "dependencies": {
+          "GitBuild.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+        },
+        "runtime": {
+          "GitBuild.Data.dll": {}
+        },
+        "compile": {
+          "GitBuild.Data.dll": {}
+        }
+      },
+      "GitBuild.DI/1.0.0": {
+        "dependencies": {
+          "GitBuild.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.5",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
+          "Microsoft.Extensions.DependencyInjection": "2.1.0"
+        },
+        "runtime": {
+          "GitBuild.DI.dll": {}
+        },
+        "compile": {
+          "GitBuild.DI.dll": {}
+        }
+      },
+      "GitBuild.Domain/1.0.0": {
+        "runtime": {
+          "GitBuild.Domain.dll": {}
+        },
+        "compile": {
+          "GitBuild.Domain.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.4": {
@@ -3156,6 +3227,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WqPO8M9Ho0CiJ1tnIgWgXoAPt8/oIE8lcELZYbvmiVyr59f395HmHQhGCXti0/DePgPb7N6EHTIgCczRyuqIkg==",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.5",
+      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Pzxg+WEzPivrBYur4uRTQt+c3kWOebWq51nkmkuOtK2O5hjCKS3Lw6Mln2iI/ae7rJcvVW6hUd3rCgctFSmmw==",
+      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.5",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.design.1.1.5.nupkg.sha512"
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -3204,6 +3289,21 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "GitBuild.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GitBuild.DI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GitBuild.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.4": {
       "type": "package",

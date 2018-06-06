@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using GitBuild.DI;
 
 namespace GitBuild.Web
 {
@@ -22,9 +23,9 @@ namespace GitBuild.Web
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services, configuration.GetConnectionString("DefaultConnection"))
+        public void ConfigureServices(IServiceCollection services)
         {
-            Bootstrap.Configure(services);
+            Bootstrap.Configure(services, Configuration.GetConnectionString("BancoDeDados"));
             services.AddMvc();
         }
 
