@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using GitBuild.Data;
+using GitBuild.Domain;
 
 namespace GitBuild.DI
 {
@@ -11,6 +12,7 @@ namespace GitBuild.DI
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connection));
+                services.AddSingleton(typeof(IRepository<>));
         }
     }
 }

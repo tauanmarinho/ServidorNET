@@ -2605,6 +2605,21 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.VisualStudio.Web.BrowserLink/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.1.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -6823,6 +6838,18 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.BrowserLink/2.1.0": {
+      "sha512": "waZi3ugWeHDPw1XKU0czrZ7mTmYbEdXmdRPV97RaeIdwrmT/FdymXALinZ9OMMdk2BGVFN1MuxHdEyTiz14+1Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.browserlink/2.1.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.xml",
+        "microsoft.visualstudio.web.browserlink.2.1.0.nupkg.sha512",
+        "microsoft.visualstudio.web.browserlink.nuspec"
       ]
     },
     "Microsoft.Win32.Registry/4.5.0": {
@@ -11615,8 +11642,13 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "GitBuild.DI >= 1.0.0",
+      "GitBuild.Domain >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.AspNetCore.Mvc >= 2.1.0",
+      "Microsoft.AspNetCore.StaticFiles >= 2.1.0",
+      "Microsoft.Extensions.Logging.Debug >= 2.1.0",
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Microsoft.VisualStudio.Web.BrowserLink >= 2.1.0"
     ]
   },
   "packageFolders": {
@@ -11649,6 +11681,9 @@
           "projectReferences": {
             "C:\\Users\\Marília Marinho\\Documents\\ServidorNET\\src\\GitBuild.DI\\GitBuild.DI.csproj": {
               "projectPath": "C:\\Users\\Marília Marinho\\Documents\\ServidorNET\\src\\GitBuild.DI\\GitBuild.DI.csproj"
+            },
+            "C:\\Users\\Marília Marinho\\Documents\\ServidorNET\\src\\GitBuild.Domain\\GitBuild.Domain.csproj": {
+              "projectPath": "C:\\Users\\Marília Marinho\\Documents\\ServidorNET\\src\\GitBuild.Domain\\GitBuild.Domain.csproj"
             }
           }
         }
@@ -11668,10 +11703,26 @@
             "version": "[2.1.0, )",
             "autoReferenced": true
           },
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Microsoft.AspNetCore.StaticFiles": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.VisualStudio.Web.BrowserLink": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [

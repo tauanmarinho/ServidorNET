@@ -1,9 +1,7 @@
 namespace GitBuild.Domain.Language
 {
-    public class Language 
+    public class Language : Entity
     {
-        public int Id {get; private set;}
-
         public string Name {get; private set;}
 
         public Language (int id, string name)

@@ -14,7 +14,6 @@ namespace LanguageStore.Domain.language
             _languageRepository = languageRepository;
         }
 
-       
         public void Store(LanguageDto dto)
         {
             var language = _languageRepository.GetById(dto.Id);
