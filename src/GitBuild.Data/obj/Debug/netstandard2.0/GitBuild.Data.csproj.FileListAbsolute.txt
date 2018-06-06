@@ -1,0 +1,12 @@
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\bin\Debug\netstandard2.0\GitBuild.Data.deps.json
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\bin\Debug\netstandard2.0\GitBuild.Data.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\bin\Debug\netstandard2.0\GitBuild.Data.pdb
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\bin\Debug\netstandard2.0\GitBuild.Domain.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\bin\Debug\netstandard2.0\GitBuild.Domain.pdb
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.csprojAssemblyReference.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.csproj.CoreCompileInputs.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.AssemblyInfoInputs.cache
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.AssemblyInfo.cs
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.csproj.CopyComplete
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.dll
+C:\Users\Marília Marinho\Documents\ServidorNET\src\GitBuild.Data\obj\Debug\netstandard2.0\GitBuild.Data.pdb

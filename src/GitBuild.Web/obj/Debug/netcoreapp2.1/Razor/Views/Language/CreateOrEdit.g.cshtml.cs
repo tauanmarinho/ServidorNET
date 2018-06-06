@@ -64,7 +64,7 @@ using GitBuild.Web.Models;
             WriteLiteral("\r\n<div class=\"row header\">\r\n    <div class=\"col-md-12\">\r\n        <h3>Language</h3>\r\n        <a href=\"/Language\" class=\"btn btn-primary\">Back</a>\r\n    </div>\r\n</div>\r\n<div class=\"row form-wrapper\">\r\n    <div class=\"col-md-12\">\r\n        ");
             EndContext();
             BeginContext(279, 575, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88614ef9df064b8fb2ad3a03958a3c9b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "807d4a2ca82e4318ac3dc94c823ac968", async() => {
                 BeginContext(388, 459, true);
                 WriteLiteral(@"
             <div class=""form-group"">
